@@ -17,7 +17,7 @@ spec:
   - port: 6379
     targetPort: 6379
     protocol: TCP
-    nodePort: 32667
+    nodePort: 32668
   selector:
     app: deployment-redis
   type: NodePort
